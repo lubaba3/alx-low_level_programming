@@ -10,8 +10,8 @@
  * @str: array str
  * check_num funtion - check point string there are digit
  */
-int check_num(char *str)
-{
+int check_num(char *str)/	
+{	
 /*Declaring variables*/
 unsigned int count;
 count = 0;
