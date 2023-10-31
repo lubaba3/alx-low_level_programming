@@ -3,15 +3,13 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * main - Entry point
- * Description: 'alx argc task'
- * Return: Always 0 (Success)
- * check_num - check - string there are digit
- * @str: array str
- * check_num funtion - check point string there are digit
- */
-int check_num(char *str)/	
-{	
+* check_num funtion description: check - string there are digit
+* @str: array str
+* Return: 0 if success else 1 if faild
+**/
+int check_num(char *str)
+
+{
 /*Declaring variables*/
 unsigned int count;
 count = 0;
@@ -25,15 +23,26 @@ count++;
 }
 return (1);
 }
-	/**
-	 * main - Print the name of the program
-	 * @argc: Count arguments
-	 * @argv: Arguments
-	 * Return: Always 0 (Success)
-	 */
+/**
+* main funtion description: main point - entry point
+* main - Print the name of the program
+* @argc: Count arguments
+* @argv: Arguments
+* Return: 0 if success else 1 if faild
+**/
+/**
+* main - Entry point
+* Description: 'alx task argc'
+* Return: Always 0 (Success)
+**/
 int main(int argc, char *argv[])
+
 {
-/*Declaring variables*/
+ /**
+* main - Entry point
+* Description: 'alx task argc'
+* Return: Always 0 (Success)
+**/
 int count;
 int str_to_int;
 int sum = 0;
