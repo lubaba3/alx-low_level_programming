@@ -1,26 +1,24 @@
+#include <string.h>
 #include "main.h"
-
 /**
-  * _strpbrk - main function of the prototype
-  *
-  * @s: function parameter
-  *
-  * @accept: Fuunction parameter
-  *
-  * Return: Always 0.
-  */
-
+ *  *_strpbrk - fills memory with a constant byte
+ *   *
+ *    * @s:vvv
+ *     * @accept:vvv
+ *       *
+ *        * Return: char
+ */
 char *_strpbrk(char *s, char *accept)
 {
-	int k, j;
+	unsigned int t, i;
 
-	for (k = 0; s[k] != '\0'; k++)
+	for (i = 0 ; i < strlen(s) ; i++)
 	{
-	for (j = 0; accept[j] != '\0'; j++)
-	{
-	if (s[k] == accept[j])
-	return (s + k);
+		for (t = 0 ; t < strlen(accept) ; t++)
+		{
+			if (s[i] == accept[t])
+				return (s + i);
+		}
 	}
-	}
-	return (0);
-
+	return ('\0');
+}
