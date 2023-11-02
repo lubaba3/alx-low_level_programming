@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * main funtion description: main - entry point
  * Description: 'the program's description'
